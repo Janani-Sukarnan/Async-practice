@@ -7,7 +7,7 @@ class Program
     static async Task Main(string[] args)
     {
         LearnAsyncProgramming learn = new LearnAsyncProgramming();
-
+        Console.WriteLine("Learning Git and GitHub!");
         await learn.Run();
     }
 }
